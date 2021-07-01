@@ -1,0 +1,23 @@
+.container__grid{
+   display: grid;
+   grid-template-columns: 40% 40% auto;
+	grid-template-rows: 120px 80px auto;
+   "header header ads"
+   "main main ads"
+   "footer footer ads"
+}
+
+header{
+    grid-area: header;
+    
+ }
+ main{
+    grid-area: main;
+ }
+ footer{
+    grid-area: footer;
+ }
+ header ul{
+   display: flex;
+   flex-direction: row;
+ }
